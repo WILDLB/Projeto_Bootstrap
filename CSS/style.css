@@ -1,0 +1,25 @@
+.sobre{
+    
+    padding: 15px;
+}
+.sobre img {
+    padding: 15px;
+}
+
+.servicos h2{
+    padding: 15px;    
+}
+
+.parceiros{
+    padding: 30px;    
+}
+
+.parceiros h2{
+    padding: 30px;    
+}
+
+.bg-footer{
+    color: #fff;
+    height: 65px;
+    padding: 15px;
+}

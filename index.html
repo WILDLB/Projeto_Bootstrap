@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Estilo CSS-->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Projeto_Bootstrap</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <div class="container-fluid">
+            <a class="navbar brand " href="#">
+                <img src="./img/logo.jpg" alt="logotipo da navbar" class="rounded-circle ms-1" width="100" height="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-4">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#parceiros">Parceiros</a>
+                </li>
+            </ul>
+           <div>
+        </div>       
+    </nav>
+
+      <section id="sobre">
+          <div class="container-fluid  text-center sobre">
+              <h2>Sobre</h2>
+              <img src="./img/capa.jpeg" alt="imagem de capa" class="rounded-circle" width="360" height="360">
+              <p  class="lead">Um time comprometido com os resultados</p>             
+          </div>
+      </section>
+
+      <section id="servicos">
+          <div class="container-fluid text-center servicos">
+              <h2>serviços</h2>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-4">
+                          <img src="./img/dio.png" alt="logotipo da instituição">
+                      </div>
+                      <div class="col-lg-4">
+                        <img src="./img/dio.png" alt="logotipo da instituição">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="./img/dio.png" alt="logotipo da instituição">
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="parceiros">
+        <div class="container-fluid text-center parceiros">
+            <h2>Parceiros</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="lead">Um time de parceiros realmente preocupados e comprometidos com os resultados</p>
+                       <img src="./img/parceiros1.jpeg" alt="parceiros" width="100%">
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="lead">Parceria que cresce a cada trabalho criado e desenvolvido pelos nossos times </p>
+                        <img src="./img/parceiros2.jpeg" alt="parceiros" width="100%">
+                  </div>                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class=" container-fluid text-center bg-footer bg-dark">
+        <p>&copy Desenvolvido por William de Lima Barbosa 2021</p>
+    </footer>
+    
+
+    <!--Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
