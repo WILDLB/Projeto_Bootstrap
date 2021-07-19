@@ -1,2 +1,2 @@
 # Projeto_Bootstrap
-Criação de uma página utilizando o Bootstrap
+Aula de criação de uma página utilizando o Bootstrap
